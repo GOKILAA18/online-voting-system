@@ -1,15 +1,13 @@
 # online-voting-system
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #define MAX 100
-
-// Structure for storing voter data
 struct Voter {
     int voterID;
 };
-
 int main() {
     struct Voter voters[MAX];
     int votedIDs[MAX];
@@ -76,7 +74,7 @@ int main() {
 
     printf("\nVoting Completed Successfully!\n");
 
-    // Admin Panel
+    
     printf("\nEnter Admin Password to view results: ");
     scanf("%d", &password);
 
